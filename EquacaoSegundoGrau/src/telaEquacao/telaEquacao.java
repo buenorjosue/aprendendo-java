@@ -253,10 +253,10 @@ public class telaEquacao extends javax.swing.JFrame {
         lblDelta.setText(String.format("%.2f", d));
         
         if(d < 0){
-            lblRaiz.setText("Não existem raizes reais");
+            lblRaiz.setText("Não existem raízes reais");
         }
         else{
-            lblRaiz.setText("Existem raizes reais");
+            lblRaiz.setText("Existem raízes reais");
         }
     }//GEN-LAST:event_btnCalcActionPerformed
 
